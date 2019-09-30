@@ -1,7 +1,4 @@
-Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) 
-[Clang 6.0 (clang-600.0.57)] on darwin
-Type "help", "copyright", "credits" or "license()" for more information.
->>> class Node:
+class Node:
     
     def __init__(self, val):
         self.val = val
@@ -102,5 +99,3 @@ class MyLinkedList(object):
 # obj.addAtTail(val)
 # obj.addAtIndex(index,val)
 # obj.deleteAtIndex(index)
-SyntaxError: invalid syntax
->>> 

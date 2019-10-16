@@ -87,6 +87,7 @@ Like the generally recognized queuing team, Queue also has the following charact
 * To leave the team, you must be away from the front.
 
 ![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/queue.png)
+
 As shown in the above figure, it can be judged from the front (front of the team) and back (behind the team) that the order of entering the team should be 23, 1, 3, 35.
 
 For a general Queue, there are several functions for processing data structures:
@@ -99,4 +100,35 @@ For a general Queue, there are several functions for processing data structures:
 * `IsEmpty`: Confirm if there is any data in the Queue.
 * `getSize`: Returns the number of data in the Queue.
 
+Week3
+====
 
+Week4
+====
+
+Insertion Sort(插入排序法)
+--------
+
+Assignment 1: Quick Sort
+=====
+
+Quicksort is an ecient inplace sorting algorithm, which usually performs about two to three times faster than merge sort and heapsort when implemented well. Quicksort is a comparison sort, meaning that it can sort items of any type for which a
+less-than relation is dened. Inecient implementations, it is Quicksort is an ecient inplace sorting algorithm, which usually not a stable sort.
+
+Quicksort is an ecient inplace sorting algorithm, which Quicksort on average takes O(nlog(n)) comparisons to sort n items. In the worst case, it makes O(n) comparisons, though this behavior is very rare.
+
+How Quicksort works?
+-----
+Quicksort is a divide and conquer algorithm. Like all divide and conquer algorithms, it rst divides a large array into two smaller subarrays and then recursively sort the sub-arrays. Basically, three steps are involved in whole process –
+
+* ***Pivot selection***: Pick an element, called a pivot, from the array (usually the leftmost or the rightmost element of the partition).
+* ***Partitioning***: Reorder the array so that all elements with values less than the pivot come before the pivot, while all elements with values greater than the pivot come after it (equal values can go either way). After this partitioning, the pivot is in its nal position.while all elements with values greater than the pivot
+* ***Recur***: Recursively apply the above steps to the sub-array of elements with smaller values than pivot and separately to the sub-array of elements with greater values than pivot.
+
+The base case of the recursion is arrays of size 1, which never need to be sorted. 
+Below diagram shows how at each step of the quicksort algorithm we choose leftmost element as pivot, partition the array across pivot and recur on two sub-arrays we get after partition process.
+
+![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/quicksort.png)
+
+
+ 

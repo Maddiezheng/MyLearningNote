@@ -64,7 +64,7 @@ For a general Stack, there are several functions for processing data structures:
   * Confirm that there are books in the box.
 * `getSize`: Returns the number of data in the Stack, without affecting the data structure itself.
   * Record how many books are currently in the box.
- 圖片
+![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/stack.png)
 
 For the above example, the Stack is empty at the beginning:
   
@@ -86,7 +86,7 @@ Like the generally recognized queuing team, Queue also has the following charact
 * To enter the team, you must enter from the back.
 * To leave the team, you must be away from the front.
 
-圖片
+![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/queue.png)
 As shown in the above figure, it can be judged from the front (front of the team) and back (behind the team) that the order of entering the team should be 23, 1, 3, 35.
 
 For a general Queue, there are several functions for processing data structures:

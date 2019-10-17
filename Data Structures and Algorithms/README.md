@@ -135,4 +135,6 @@ Sol1
 
 ![-w100](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Assignment1-flow%20chart(sol2.1).JPG)
 
+![-w90](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Assignment1-flow%20chart(sol2.2).JPG)
+
  

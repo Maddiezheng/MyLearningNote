@@ -130,5 +130,9 @@ Below diagram shows how at each step of the quicksort algorithm we choose leftmo
 
 ![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/quicksort.png)
 
+Sol1
+---
+
+![-w150](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Assignment1-flow%20chart(sol2.1).JPG)
 
  

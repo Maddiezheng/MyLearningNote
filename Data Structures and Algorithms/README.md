@@ -45,8 +45,8 @@ Linked List
 ------
 Linked list is a common data structure that uses `Node` to record, represent, store data, and use the `pointer` in each node to point to the next node, thereby using multiple nodes. Connected together to form a Linked list, and `NULL` to represent the end of the Linked list.
 
-![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/linked%20list1.png)
-![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/linked%20list2.png)
+![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/linked%20list1.png)
+![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/linked%20list2.png)
 Week2
 =====
 >Leetcode: 155.Min Stack & 232.Implement Queue using Stacks 
@@ -66,7 +66,7 @@ For a general Stack, there are several functions for processing data structures:
   * Confirm that there are books in the box.
 * `getSize`: Returns the number of data in the Stack, without affecting the data structure itself.
   * Record how many books are currently in the box.
-![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/stack.png)
+![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/stack.png)
 
 For the above example, the Stack is empty at the beginning:
   
@@ -88,7 +88,7 @@ Like the generally recognized queuing team, Queue also has the following charact
 * To enter the team, you must enter from the back.
 * To leave the team, you must be away from the front.
 
-![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/queue.png)
+![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/queue.png)
 
 As shown in the above figure, it can be judged from the front (front of the team) and back (behind the team) that the order of entering the team should be 23, 1, 3, 35.
 
@@ -131,22 +131,22 @@ Quicksort is a divide and conquer algorithm. Like all divide and conquer algorit
 The base case of the recursion is arrays of size 1, which never need to be sorted. 
 Below diagram shows how at each step of the quicksort algorithm we choose leftmost element as pivot, partition the array across pivot and recur on two sub-arrays we get after partition process.
 
-![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/quicksort.png)
+![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/quicksort.png)
 
 
 Solution 1
 ----
 
 Here is [flow chart] which I drew by computer.
-(https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Assignment1-flow%20chart(sol1).png)
+(https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/Assignment1-flow%20chart(sol1).png)
 
 Solution 2
 ---
 
 This is my thought process below.
 
-![-w100](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Assignment1-flow%20chart(sol2.1).JPG)
+![-w100](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/Assignment1-flow%20chart(sol2.1).JPG)
 
-![-w90](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Assignment1-flow%20chart(sol2.2).JPG)
+![-w90](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/Assignment1-flow%20chart(sol2.2).JPG)
 
  

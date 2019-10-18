@@ -18,17 +18,17 @@ Objectives
 
 Contents
 =========
-[Week1](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Week1(707.Design%20Linked%20List)%202.0.py):Linked List
+[Week1](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week1(707.Design%20Linked%20List)%202.0.py):Linked List
 
-[Week2.1](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Week2(155.Min%20Stack).py):Stack
+[Week2.1](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week2(155.Min%20Stack).py):Stack
 
-[Week2.2](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Week2(232.Implement%20Queue%20using%20Stacks).py):Queue
+[Week2.2](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week2(232.Implement%20Queue%20using%20Stacks).py).py):Queue
 
-[Week3](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Week3(645.Set%20Mismatch).py):Set
+[Week3](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week3(645.Set%20Mismatch).py):Set
 
-[Week4](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Week4(147.Insertion%20Sort%20List).py):Insertion Sort
+[Week4](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week4(147.Insertion%20Sort%20List).py):Insertion Sort
 
-[Assignment1](https://nbviewer.jupyter.org/github/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Assignment1-QuickSort.ipynb):Quick Sort
+[Assignment1](https://nbviewer.jupyter.org/github/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Assignment/Assignment1-QuickSort.ipynb):Quick Sort
 
 What's "leetcode" ?
 ----------

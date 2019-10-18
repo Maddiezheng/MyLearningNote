@@ -137,8 +137,7 @@ Below diagram shows how at each step of the quicksort algorithm we choose leftmo
 Solution 1
 ----
 
-Here is [flow chart] which I drew by computer.
-(https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/Assignment1-flow%20chart(sol1).png)
+Here is [flow chart] which I drew by computer.(https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/Assignment1-flow%20chart(sol1).png)
 
 Solution 2
 ---

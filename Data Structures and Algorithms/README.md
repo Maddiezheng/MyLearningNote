@@ -26,9 +26,13 @@ Contents
 
 [Week3](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week3(645.Set%20Mismatch).py):Set
 
-[Week4](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week4(147.Insertion%20Sort%20List).py):Insertion Sort
+[Week4.1](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week4(147.Insertion%20Sort%20List).py):Insertion Sort
+
+[Week4.2](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week4(148.Sort%20List).py):Sort List
 
 [Assignment1](https://nbviewer.jupyter.org/github/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Assignment/Assignment1-QuickSort.ipynb):Quick Sort
+
+[Week5]:Heap
 
 What's "leetcode" ?
 ----------
@@ -108,9 +112,16 @@ Week3
 
 Week4
 ====
+>Leetcode: 147.Insertion Sort List & 148.Sort List
 
 Insertion Sort(插入排序法)
 --------
+
+Sort List
+----
+This is my [flow chart](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/sort%20list.png) I draw.
+
+
 
 Assignment 1: Quick Sort
 =====
@@ -138,6 +149,7 @@ Solution 1
 ----
 
 Here is [flow chart](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/Assignment1-flow%20chart(sol1).png) which I drew by computer.
+![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/sort%20list.png)
 
 Solution 2
 ---

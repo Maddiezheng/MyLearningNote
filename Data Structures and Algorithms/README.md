@@ -125,13 +125,17 @@ This is my [flow chart](https://github.com/Maddiezheng/MyLearningNote/blob/maste
 
 The question requires that the time complexity(時間複雜度) is O(nlogn) and space complexity(空間複雜度) is O(1). According to the time complexity, we naturally think of the dichotomy(二分法), which associates with the merge order(歸併排序).
 
-There are two steps to achieve the merge sorting of linked lists by recursion(遞歸).
-* `Split step`: Find the `midpoint` of the current linked list and disconnect the linked list from the midpoint
+There are `two steps` to achieve the merge sorting of linked lists by recursion(遞歸).
+
+* `Split step`: Find the `midpoint` of the current linked list and disconnect the linked list from the midpoint.
+
    * Using the `fast`, `slow` double-pointer method, an odd number(奇數) of nodes finds the midpoint, and an even number(偶數) of nodes finds the node to the left of the center.
    * After finding the midpoint `slow`, execute `slow.next = None` to cut the list.
    * For recursive splitting, enter the left end head of the current list and the next node tmp of the center node slow (because the linked list is cut from slow).
    * Cut Recursive termination condition:  When head.next == None, it means that there is only one node, and it returns directly to this node.
+   
 * `Merge step`: Combine two sorted linked lists into one sorted linked list.
+
    * Use Double pointer method to merge, create ListNode dummy as header.
    * Set two pointers `left`, `right` respectively point to the head of the two linked list, compare the node value of the two pointers, add the merged list header from small to large, and the pointer alternates until the two linked lists are added.
    * Returns ListNode dummy as the next node of the header dummy.next

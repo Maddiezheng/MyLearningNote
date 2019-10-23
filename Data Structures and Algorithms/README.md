@@ -26,9 +26,13 @@ Contents
 
 [Week3](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week3(645.Set%20Mismatch).py):Set
 
-[Week4](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week4(147.Insertion%20Sort%20List).py):Insertion Sort
+[Week4.1](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week4(147.Insertion%20Sort%20List).py):Insertion Sort
+
+[Week4.2](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week4(148.Sort%20List).py):Sort List
 
 [Assignment1](https://nbviewer.jupyter.org/github/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Assignment/Assignment1-QuickSort.ipynb):Quick Sort
+
+[Week5]:Heap
 
 What's "leetcode" ?
 ----------
@@ -108,9 +112,36 @@ Week3
 
 Week4
 ====
+>Leetcode: 147.Insertion Sort List & 148.Sort List
 
 Insertion Sort(插入排序法)
 --------
+
+Sort List
+----
+This is my [flow chart](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/sort%20list.png) I draw.
+![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/sort%20list.png)
+
+
+The question requires that the time complexity(時間複雜度) is O(nlogn) and space complexity(空間複雜度) is O(1). According to the time complexity, we naturally think of the dichotomy(二分法), which associates with the merge order(歸併排序).
+
+There are `two steps` to achieve the merge sorting of linked lists by recursion(遞歸).
+
+* `Cut step`(分割環節): Find the `midpoint` of the current linked list and disconnect the linked list from the midpoint.
+
+   * Using the `fast`, `slow` double-pointer method, an odd number(奇數) of nodes finds the midpoint, and an even number(偶數) of nodes finds the node to the left of the center.
+   * After finding the midpoint `slow`, execute `slow.next = None` to cut the list.
+   * For recursive splitting(遞歸分割), enter the left end head of the current list and the next node tmp of the center node slow (because the linked list is cut from slow).
+   * Cut Recursive termination condition(cut遞歸終止條件):  When head.next == None, it means that there is only one node, and it returns directly to this node.
+   
+* `Merge step`(合併環節): Combine two sorted linked lists into one sorted linked list.
+
+   * Use Double pointer method to merge, create ListNode dummy as header.
+   * Set two pointers `left`, `right` respectively point to the head of the two linked list, compare the node value of the two pointers, add the merged list header from small to large, and the pointer alternates until the two linked lists are added.
+   * Returns ListNode dummy as the next node of the header dummy.next
+
+
+
 
 Assignment 1: Quick Sort
 =====
@@ -138,14 +169,15 @@ Solution 1
 ----
 
 Here is [flow chart](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/Assignment1-flow%20chart(sol1).png) which I drew by computer.
+![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/Assignment1-flow%20chart(sol1).png)
 
 Solution 2
 ---
 
 This is my thought process below.
 
-![-w100](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/Assignment1-flow%20chart(sol2.1).JPG)
+![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/Assignment1-flow%20chart(sol2.1).JPG)
 
-![-w90](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/Assignment1-flow%20chart(sol2.2).JPG)
+![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/Assignment1-flow%20chart(sol2.2).JPG)
 
  

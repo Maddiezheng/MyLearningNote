@@ -17,7 +17,7 @@ https://medium.com/appworks-school/初學者學演算法-排序法進階-合併�
 https://blog.csdn.net/ying_ying_123/article/details/88010540
 
 流程圖：
-![jupyter](mergesort流程圖.png)
+![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/mergesort流程圖.png)
 
 第一次跑的時候發現if j == None和if I == None的邏輯有點錯誤
 

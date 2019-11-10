@@ -17,7 +17,7 @@ https://www.geeksforgeeks.org/python-program-for-heap-sort/
 
 流程圖：
 
-![jupyter](heapsort流程圖.png)
+![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort流程圖.png)
 
 寫的cell太多，就不一一描述，針對後半段的cell進行了一些闡述
 

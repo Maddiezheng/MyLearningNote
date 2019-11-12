@@ -43,12 +43,16 @@
 
 <table><tr><td bgcolor=#cdedf9>
 測試的平均排序時間：數據為隨機整數，時間單位為s
+</td></tr></table>
 
 數據規模    heapsort   mergesort
+
 1000萬      3.57      1.22
+
 5000萬      26.54     6.29
+
 1億         61.31     13.06
-</td></tr></table>
+
 
 
 

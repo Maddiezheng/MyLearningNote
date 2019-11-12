@@ -28,30 +28,28 @@
 
 3. 時間空間複雜度比較
 
-        堆排序     歸並排序
+               堆排序     歸並排序
 
-最壞時間 O(nlogn) O(nlogn) 
+       最壞時間 O(nlogn) O(nlogn) 
 
-最好時間 O(nlogn) O(nlogn) 
+       最好時間 O(nlogn) O(nlogn) 
 
-平均時間 O(nlogn) O(nlogn) 
+       平均時間 O(nlogn) O(nlogn) 
 
-輔助空間 O(1)    O(n)
+       輔助空間 O(1)    O(n)
 
 
 4.測試數據
 
-<table><tr><td bgcolor=#cdedf9>
-測試的平均排序時間：數據為隨機整數，時間單位為s
-</td></tr></table>
+<table><tr><td bgcolor=#cdedf9>測試的平均排序時間：數據為隨機整數，時間單位為s</td></tr></table>
 
-數據規模    heapsort   mergesort
+     數據規模    heapsort   mergesort
 
-1000萬      3.57      1.22
+     1000萬      3.57      1.22
 
-5000萬      26.54     6.29
+     5000萬      26.54     6.29
 
-1億         61.31     13.06
+     1億         61.31     13.06
 
 
 

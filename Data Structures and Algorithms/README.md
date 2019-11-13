@@ -204,15 +204,18 @@ if the index of certain node is i, then:
 * index of right child: 2*i+2
 
 Max Heapify:
+
 ![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/maxheapify1.png)
 ![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/maxheapify2.png)
 ![-110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/maxheapify3.png)
 
 Heap Sort:
+
 ![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort1.png)
 ![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort2.png)
 ![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort3.png)
 ![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort4.png)
+
 The steps of heap sort
 ---
 

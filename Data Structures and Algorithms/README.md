@@ -195,8 +195,8 @@ The structure of the heap can be divided into `Max Heap` and `Min heap`, which i
     * arr(i) < arr(2i+1)
     * arr(i) < arr(2i+2)
 
-![-w30](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/maxheap.png)
-![-w30](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/minheap.png)
+![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/maxheap.png)
+![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/minheap.png)
 
 if the index of certain node is i, then:
 * index of parent node: (i-1)/2
@@ -204,15 +204,15 @@ if the index of certain node is i, then:
 * index of right child: 2*i+2
 
 Max Heapify:
-![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/maxheapify1.png)
-![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/maxheapify2.png)
-![-80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/maxheapify3.png)
+![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/maxheapify1.png)
+![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/maxheapify2.png)
+![-110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/maxheapify3.png)
 
 Heap Sort:
-![-w30](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort1.png)
-![-w30](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort2.png)
-![-w30](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort3.png)
-![-w30](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort4.png)
+![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort1.png)
+![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort2.png)
+![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort3.png)
+![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort4.png)
 The steps of heap sort
 ---
 
@@ -276,7 +276,7 @@ Merge Sort is an efficient sorting method. It is divided into two parts: `divide
 `Divide` is to split a bunch of unordered numbers into a single, which is convenient for merging.
 `Merge` is to combine the divided numbers which are already sorted.
 
-![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/mergesort%20flow%20chart.png)
+![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/mergesort%20flow%20chart.png)
 >Reference: http://alrightchiu.github.io/SecondRound/comparison-sort-merge-sorthe-bing-pai-xu-fa.html
 
 one time merge:

@@ -34,6 +34,10 @@ Contents
 
 [Week5]:Heap
 
+[Assighment2](https://github.com/Maddiezheng/MyLearningNote/tree/master/HW2):Heap Sort & Merge Sort
+
+[Assignment3]:Binary search tree
+
 What's "leetcode" ?
 ----------
 > “LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.” (From leetcode.com) 
@@ -215,6 +219,8 @@ Heap Sort:
 ![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort2.png)
 ![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort3.png)
 ![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/heapsort4.png)
+>Reference: http://alrightchiu.github.io/SecondRound/comparison-sort-heap-sortdui-ji-pai-xu-fa.html
+
 
 The steps of heap sort
 ---
@@ -270,7 +276,7 @@ The steps of heap sort
         Solution().maxheapify(arr,0,m)
         return arr
 ```
->Reference: http://alrightchiu.github.io/SecondRound/comparison-sort-heap-sortdui-ji-pai-xu-fa.html
+
 
 
 Merge Sort
@@ -281,6 +287,9 @@ Merge Sort is an efficient sorting method. It is divided into two parts: `divide
 
 ![-w110](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/mergesort%20flow%20chart.png)
 >Reference: http://alrightchiu.github.io/SecondRound/comparison-sort-merge-sorthe-bing-pai-xu-fa.html
+
+
+
 
 one time merge:
 

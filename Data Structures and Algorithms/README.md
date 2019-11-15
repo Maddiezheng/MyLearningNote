@@ -330,20 +330,48 @@ divide the array,and recursive `Solution().merge_sort` and `Solution().MergeSing
         arr2=Solution().merge_sort(arr[mid:]) #遞迴左半邊的array
         return Solution().MergeSingle(arr1,arr2)#單趟merge
 ```
+Week 10
+===
+
+Tree
+---
+
+A tree is a data structure. It consists of a set of hierarchical relationships consisting of n(n>=0) finite nodes. It is called a "tree" because it looks like an upside down tree, that is, its roots are facing up, and the leaves are facing down. It has the following characteristics:
+
+* Each node has zero or more `child nodes`.
+* A node without a parent node is called `Root Node`.
+* Each non-root node has one and only one `parent node`.
+* In addition to the root node, each child node can be divided into multiple disjoint `subtrees`.
+
+![]()
+
+*`Degree of node`: The number of subtrees owned by the node. The degree of node c in the figure is 2.
+*`Leaf`: The node with zero degree, D, E, and F are all leaf nodes. 
+*`Degree of the tree`: The maximum degree of the node in the tree. The degree of the node c in the figure is at most 2, so the degree of the tree is 2.
+
+*`level`: The level of the root node is 1, and the level of the remaining nodes is equal to the level of the parent node of the node plus 1. 
+*`Height of the tree`: The maximum level of nodes in the tree. The height of the tree in the figure is 3. 
+*`Unordered tree`: If the order between the subtrees of the nodes in the tree is not important, the locations can be swapped. *`Ordered tree`: If the order between the subtrees of the nodes in the tree is important, the locations can not be swapped. *`Forest`: 0 or more disjoint trees. Adding a root to the forest, the forest becomes a tree; when the root is deleted, the tree becomes a forest.
+
+Binary Tree
+---
+
+
+
 
 Assignment3: Binary Search Tree
 ===
+Search tree is a data structure that can be inserted, searched, deleted, etc., and can be used as a dictionary or priority queue. 
 
-　　　　　　　　　  10
-　　　　　　　　　/    \
-　　　　　　　　5       15
-　　　　　　 /   \   /     \
-　　　　　　2     7  12     20
+The binary search tree is the simplest search tree.Each parent node has two child nodes (child nodes may be empty). The key value of its left subtree <= the key value of the root node, the key value of the right subtree>= the key value of the root node.
+
+
+![]()
 
 For each node in the tree:
->*If its left subtree exists, the value of each node in its left subtree is not greater than the node value;
->*If its right subtree exists, the value of each node in its right subtree is not less than the node value.
+* If its left subtree exists, the value of each node in its left subtree is not greater than the node value.
+* If its right subtree exists, the value of each node in its right subtree is not less than the node value.
 
-Each parent node has two child nodes (child nodes may be empty), the left child node is smaller than the parent node, and the right child node is larger than the parent node.
+
 
  

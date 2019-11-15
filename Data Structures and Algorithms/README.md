@@ -330,4 +330,20 @@ divide the array,and recursive `Solution().merge_sort` and `Solution().MergeSing
         arr2=Solution().merge_sort(arr[mid:]) #遞迴左半邊的array
         return Solution().MergeSingle(arr1,arr2)#單趟merge
 ```
+
+Assignment3: Binary Search Tree
+===
+
+　　　　　　　　　  10
+　　　　　　　　　/    \
+　　　　　　　　5       15
+　　　　　　 /   \   /     \
+　　　　　　2     7  12     20
+
+For each node in the tree:
+>*If its left subtree exists, the value of each node in its left subtree is not greater than the node value;
+>*If its right subtree exists, the value of each node in its right subtree is not less than the node value.
+
+Each parent node has two child nodes (child nodes may be empty), the left child node is smaller than the parent node, and the right child node is larger than the parent node.
+
  

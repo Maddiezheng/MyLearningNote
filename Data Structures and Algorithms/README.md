@@ -355,7 +355,7 @@ A tree is a data structure. It consists of a set of hierarchical relationships c
 
 Binary Tree
 ---
-
+A tree whose elements have at most 2 children is called a Binary Tree.That means every node can have maximum 2 children.
 
 
 

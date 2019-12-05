@@ -68,6 +68,11 @@ e)衝突 (collision)：
 許多重要的應用，都使用了密碼雜湊函式來實作，例如數位簽章，訊息鑑別碼
 
 ***流程圖：***
+![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/hashtable1.jpeg)
+
+![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/hashtable2.png)
+
+![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/hashtable3.png)
 
 ****方法解釋****
 

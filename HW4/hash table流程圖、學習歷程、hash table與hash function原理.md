@@ -70,6 +70,8 @@ e)衝突 (collision)：
 ***流程圖：***
 ![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/hashtable1.jpeg)
 
+![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/hashtable4.jpeg)
+
 ![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/hashtable2.png)
 
 ![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/hashtable3.png)

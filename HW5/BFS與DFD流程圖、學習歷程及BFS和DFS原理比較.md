@@ -61,7 +61,7 @@
 
 ![w-80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/BFS和DFS流程圖2.jpeg)
 
-!(w-80)(https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/BFS和DFS流程圖3.jpeg)
+![w-80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/BFS和DFS流程圖3.jpeg)
 
 
 

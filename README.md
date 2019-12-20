@@ -36,7 +36,9 @@ Contents
 
 [Assighment2](https://github.com/Maddiezheng/MyLearningNote/tree/master/HW2):Heap Sort & Merge Sort
 
-[Assignment3]:Binary search tree
+[Assignment3]:(https://github.com/Maddiezheng/MyLearningNote/blob/master/HW3/binary_search_tree_06123901.py):Binary search tree
+[Assignment4]:(https://github.com/Maddiezheng/MyLearningNote/blob/master/HW4/hash_table_06123901.py):Hash table
+[Assignment5]:(https://github.com/Maddiezheng/MyLearningNote/blob/master/HW5/BFS_06123901.py):BFS & DFS
 
 What's "leetcode" ?
 ----------
@@ -373,5 +375,14 @@ For each node in the tree:
 * If its right subtree exists, the value of each node in its right subtree is not less than the node value.
 
 
+Assignment 3: Binary search tree
+====
 
+Assignment 4: Hash table
+====
  
+Assignment 5: BFS & DFS
+====
+
+BFS
+---

@@ -16,7 +16,7 @@
 
 
 3.流程圖
-
+![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/Dijkstra.jpeg)
 ## Kruskal原理（Minimum Spanning tree）：
 
 1.介紹
@@ -36,7 +36,7 @@
 
 
 3.流程圖
-
+![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/kruskal.jpeg)
 #參考資料
 
 

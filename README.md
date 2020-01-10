@@ -30,6 +30,28 @@ Objectives
 > * This course is based on the Python but is not limited to Python.
 > * Students are free to use familiar tools.
 
+My review of the course
+========
+
+To be honest, this course is the most painful course in my college career.
+
+Changing from department of  German language to dept. of big data management has been a big challenge for me.
+
+In this half year, there are joys and pains, but what I have gained is the most memorable memories in my learning career.
+
+This semester, I increased my programming skills (Python).
+
+In the past six months, I have used python to write algorithms. I have a deeper understanding of some grammatical structures of python, and my own logical ability has improved a lot.
+
+Have a deeper grasp of algorithms.
+
+I started from the Linked list at first. I didn’t know anything about the algorithm at first. I found it very difficult to write Leetcode or homework. I had to go to the Internet to query related information and learn the logical thinking of others to complete the problem.... But after one semester of training and 6 assignments, I found that I can gradually get out of the process of finding information from the third assignment, because I already have the initial thinking ability and the ability to write algorithm with my own logic. And the speed of writing homework has also gradually increased. It will take 30 to 40 hours at first, and can be completed in 10 to 20 hours later.
+
+Have a clearer plan for the future.
+
+My instructor is a great teacher, and she has brought us a lot of resources with her rich experience. So now I gradually consciously develop my ability to prepare for the future.
+
+
 Contents
 =========
 Week1:Moon Festival
@@ -558,26 +580,7 @@ Week 18
 ===
 No class
 
-My review of the course
-========
 
-To be honest, this course is the most painful course in my college career.
-
-Changing from department of  German language to dept. of big data management has been a big challenge for me.
-
-In this half year, there are joys and pains, but what I have gained is the most memorable memories in my learning career.
-
-This semester, I increased my programming skills (Python).
-
-In the past six months, I have used python to write algorithms. I have a deeper understanding of some grammatical structures of python, and my own logical ability has improved a lot.
-
-Have a deeper grasp of algorithms.
-
-I started from the Linked list at first. I didn’t know anything about the algorithm at first. I found it very difficult to write Leetcode or homework. I had to go to the Internet to query related information and learn the logical thinking of others to complete the problem.... But after one semester of training and 6 assignments, I found that I can gradually get out of the process of finding information from the third assignment, because I already have the initial thinking ability and the ability to write algorithm with my own logic. And the speed of writing homework has also gradually increased. It will take 30 to 40 hours at first, and can be completed in 10 to 20 hours later.
-
-Have a clearer plan for the future.
-
-My instructor is a great teacher, and she has brought us a lot of resources with her rich experience. So now I gradually consciously develop my ability to prepare for the future.
 
 
 

@@ -82,8 +82,9 @@ Week2:First class
 
 [Assignment6](https://github.com/Maddiezheng/MyLearningNote/tree/master/HW6): Dijkstra & Kruskal
 
-[CS50](https://github.com/Maddiezheng/MyLearningNote/tree/master/CS50)
-:city_sunset:[Pictures](https://github.com/Maddiezheng/MyLearningNote/tree/master/Data%20Structures%20and%20Algorithms)
+[CS50](https://github.com/Maddiezheng/MyLearningNote/tree/master/CS50):Harvard University
+
+:city_sunset:[Pictures](https://github.com/Maddiezheng/MyLearningNote/tree/master/Data%20Structures%20and%20Algorithms):file “data structure and algorithm”
 
 What's "leetcode" ?
 ----------

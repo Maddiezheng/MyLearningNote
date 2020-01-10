@@ -26,6 +26,7 @@
 
 總之，歸並排序是一種比較佔用內存，但效率高，並且穩定的算法。
 
+
 ![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/mergesort%20flow%20chart.png)
 
 

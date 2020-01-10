@@ -36,17 +36,17 @@ Week1:Moon Festival
 
 Week2:First class
 
-[Week3](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week1(707.Design%20Linked%20List)%202.0.py):Linked List
+[Week3_Leetcode](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week1(707.Design%20Linked%20List)%202.0.py):Linked List
 
-[Week4.1](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/155%23_Min%20Stack_06123901.py):Stack
+[Week4.1_Leetcode](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/155%23_Min%20Stack_06123901.py):Stack
 
-[Week4.2](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/232%23_Implement%20Queue%20using%20Stacks_06123901.py):Queue
+[Week4.2_Leetcode](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/232%23_Implement%20Queue%20using%20Stacks_06123901.py):Queue
 
-[Week5](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/645%23_Set%20Mismatch_06123901.py):Set
+[Week5_Leetcode](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/645%23_Set%20Mismatch_06123901.py):Set
 
-[Week6.1](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/147%23_Insertion%20Sort%20List_06123901.py):Insertion Sort
+[Week6.1_Leetcode](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/147%23_Insertion%20Sort%20List_06123901.py):Insertion Sort
 
-[Week6.2](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/148%23_Sort%20List_06123901.py):Sort List
+[Week6.2_Leetcode](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/148%23_Sort%20List_06123901.py):Sort List
 
 [Assignment1](https://github.com/Maddiezheng/MyLearningNote/blob/master/HW1): Quick Sort
 
@@ -506,8 +506,10 @@ Week 15:Minimum Spanning Tree（Kruskal）
 
 Spanning Tree Concept
 ----
+
 An acyclic graph formed by taking out all the vertices and some edges of a graph in a connected graph is the spanning tree of this connected graph. In the figure, arbitrarily taking out an edge in the figure makes no loops in the figure, and a tree is formed.
 Minimum Spanning Tree: Of all the spanning trees of a connected graph, the tree with the smallest sum of edges' weights is called the minimum spanning tree
+
 Principle
 ------
 * Remember that there are v vertices and e edges in Graph.
@@ -555,3 +557,30 @@ Week 17:Dijkstra & Kruskal(Assignment6)
 Week 18
 ===
 No class
+
+My review of the course
+========
+
+To be honest, this course is the most painful course in my college career.
+
+Changing from department of  German language to dept. of big data management has been a big challenge for me.
+
+In this half year, there are joys and pains, but what I have gained is the most memorable memories in my learning career.
+
+This semester, I increased my programming skills (Python).
+
+In the past six months, I have used python to write algorithms. I have a deeper understanding of some grammatical structures of python, and my own logical ability has improved a lot.
+
+Have a deeper grasp of algorithms.
+
+I started from the Linked list at first. I didn’t know anything about the algorithm at first. I found it very difficult to write Leetcode or homework. I had to go to the Internet to query related information and learn the logical thinking of others to complete the problem.... But after one semester of training and 6 assignments, I found that I can gradually get out of the process of finding information from the third assignment, because I already have the initial thinking ability and the ability to write algorithm with my own logic. And the speed of writing homework has also gradually increased. It will take 30 to 40 hours at first, and can be completed in 10 to 20 hours later.
+
+Have a clearer plan for the future.
+
+My instructor is a great teacher, and she has brought us a lot of resources with her rich experience. So now I gradually consciously develop my ability to prepare for the future.
+
+
+
+
+
+

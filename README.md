@@ -32,27 +32,30 @@ Objectives
 
 Contents
 =========
-[Week1](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week1(707.Design%20Linked%20List)%202.0.py):Linked List
+Week1:Moon Festival
 
-[Week2.1](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week2(155.Min%20Stack).py):Stack
+Week2:First class
 
-[Week2.2](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week2(232.Implement%20Queue%20using%20Stacks).py):Queue
+[Week3](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week1(707.Design%20Linked%20List)%202.0.py):Linked List
 
-[Week3](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week3(645.Set%20Mismatch).py):Set
+[Week4.1](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/155%23_Min%20Stack_06123901.py):Stack
 
-[Week4.1](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week4(147.Insertion%20Sort%20List).py):Insertion Sort
+[Week4.2](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/232%23_Implement%20Queue%20using%20Stacks_06123901.py):Queue
 
-[Week4.2](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Practice/Week4(148.Sort%20List).py):Sort List
+[Week5](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/645%23_Set%20Mismatch_06123901.py):Set
 
-[Assignment1](https://nbviewer.jupyter.org/github/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Assignment/Assignment1-QuickSort.ipynb):Quick Sort
+[Week6.1](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/147%23_Insertion%20Sort%20List_06123901.py):Insertion Sort
 
-[Week5]:Heap
+[Week6.2](https://github.com/Maddiezheng/MyLearningNote/blob/master/Leetcode/148%23_Sort%20List_06123901.py):Sort List
 
-[Assighment2](https://github.com/Maddiezheng/MyLearningNote/tree/master/HW2):Heap Sort & Merge Sort
+[Assignment1](https://github.com/Maddiezheng/MyLearningNote/blob/master/HW1): Quick Sort
 
-[Assignment3]:(https://github.com/Maddiezheng/MyLearningNote/blob/master/HW3/binary_search_tree_06123901.py):Binary search tree
-[Assignment4]:(https://github.com/Maddiezheng/MyLearningNote/blob/master/HW4/hash_table_06123901.py):Hash table
-[Assignment5]:(https://github.com/Maddiezheng/MyLearningNote/blob/master/HW5/BFS_06123901.py):BFS & DFS
+[Assignment2](https://github.com/Maddiezheng/MyLearningNote/tree/master/HW2): Heap Sort & Merge Sort
+
+[Assignment3]:(https://github.com/Maddiezheng/MyLearningNote/blob/master/HW3): Binary search tree
+[Assignment4]:(https://github.com/Maddiezheng/MyLearningNote/blob/master/HW4): Hash table
+[Assignment5]:(https://github.com/Maddiezheng/MyLearningNote/blob/master/HW5): BFS & DFS
+[Assignment6]:(https://github.com/Maddiezheng/MyLearningNote/tree/master/HW6): Dijkstra & Kruskal
 
 What's "leetcode" ?
 ----------
@@ -61,9 +64,11 @@ What's "leetcode" ?
 > Essentially, leetcode is a site with a variety of tools focused on programming interview questions. One of the main parts of the site is dedicated to a list of problems, each tagged with a different computer science term that it is supposed to be based on. These tags range from “dynamic programming” to “binary tree.” Some of the tags are company names, “Google” or “Dropbox” or “Twitter,” indicating that they are questions asked at the named company. Many of these questions are locked behind a paywall.
 > Another part of the site is a series of coding competitions.
 
-Week1
+
+Week3
 =======
 > Leetcode: 707. Design Linked List
+> 🔗Course PPT：https://docs.google.com/presentation/d/e/2PACX-1vTB218-EdUZ5jpNz6Uv4TOZQc37Y281v128_aRcWC6EhkTQs5bS8fh7yysmcuzb9R2QPN6_PDshFWL_/pub?start=false&loop=false&delayms=3000&slide=id.p
 
 Linked List
 ------
@@ -71,9 +76,10 @@ Linked list is a common data structure that uses `Node` to record, represent, st
 
 ![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/linked%20list1.png)
 ![](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/linked%20list2.png)
-Week2
+Week4
 =====
->Leetcode: 155.Min Stack & 232.Implement Queue using Stacks 
+> Leetcode: 155.Min Stack & 232.Implement Queue using Stacks 
+> 🔗Course PPT：https://docs.google.com/presentation/d/e/2PACX-1vQ1hb79im0vqpApCttGnXAFRT8SqH9HQP0b_oyVRCV8SVyiHLkHJjidYGAfxkvq468QMumFIDdTeiB-/pub?start=false&loop=false&delayms=3000&slide=id.p
 
 Stack
 -----
@@ -126,9 +132,10 @@ For a general Queue, there are several functions for processing data structures:
 * `IsEmpty`: Confirm if there is any data in the Queue.
 * `getSize`: Returns the number of data in the Queue.
 
-Week3
+Week5
 ====
 > Leetcode: 645.Set Mismatch
+> 🔗Course PPT：https://docs.google.com/presentation/d/e/2PACX-1vT6BvB7aI9oLgyum8tdIgGVr8kabqtwo8KZV3ayzKKQqGkpAnvrjT3JabWu-Hms9kUaDILyCU8-Qqhl/pub?start=false&loop=false&delayms=3000&slide=id.p
 
 Week4
 ====

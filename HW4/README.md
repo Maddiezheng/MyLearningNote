@@ -1,14 +1,14 @@
-****Hash table（哈希表， 也叫散列表）：****
+# Hash table（哈希表， 也叫散列表）：
 
 是根據關鍵碼值(Key value)而直接進行訪問的數據結構。也就是說，它通過把關鍵碼值映射到表中一個位置來訪問記錄，以加快查找的速度。這個映射函數叫做散列函數(hash function)，存放記錄的數組叫做散列表。如果數對p的關鍵字是k，哈希函數為f，那麼在理想情況下，p在哈希表中的位置就是f(k)。
 
 哈希碰撞：在理想的情況下，不同的鍵會被轉換為不同的索引值，但是在有些情況下我們需要處理多個鍵被哈希到同一個索引值的情況。
 
-**1、為什麼出現hash table？**
+## 1、為什麼出現hash table？
 
 已知數組，查找容易，但插入、刪除困難，會消耗性能。然而鏈表雖然解決了數組插入刪除的問題，但是鏈表的查找卻又降低了性能。結合兩者的優缺點，於是便出現了，查找容易同時插入刪除容易的哈希表，時間複雜度都為o(1)。
 
-**2、Hash table 原理**
+## 2、Hash table 原理
 
 如果所有的鍵都是整數，那麼就可以使用一個簡單的無序數組來實現：
 用hash function把鍵轉換為數組索引(index)，值即為其對應的值，這樣就可以快速訪問任意鍵的值。這是對於簡單的鍵的情況，我們將其擴展到可以處理更加複雜的類型的鍵。Hash function和鍵的類型有關，對於每種類型的鍵我們都需要一個與之對應的hash function。常見hash function算法有MD5和SHA-1。
@@ -17,7 +17,7 @@
 
 現在假設我們的hash table中有M個桶，桶號為0到M-1。我們的hash function的功能就是把任意給定的key轉為[0, M-1]上的整數。我們對hash function有兩個基本要求：一是計算時間要短，二是盡可能把鍵分布在不同的桶中。對於不同類型的鍵，我們需要使用不同的hash function，這樣才能保證有比較好的散列效果。
 
-**3、hash table存取過程**
+## 3、hash table存取過程
 
 ①首先使用hash function將被查找的鍵轉換為數組的索引。
 
@@ -27,7 +27,7 @@
 
 如果該桶中已經有了鍵值對，即不同的關鍵字得到同一散列地址，那麼就使用拉鍊法或者開放尋址法（線性探測法）解決衝突。
 
-**4、拉鍊法實現的哈希表**
+## 4、拉鍊法實現的哈希表
 
 Hash table本質就是一個數組 ，底層是由數組+鏈表組成，數組中的每個元素都是一個鏈表，我們可以理解為「鏈表的數組」。
 
@@ -37,15 +37,15 @@ Hash table本質就是一個數組 ，底層是由數組+鏈表組成，數組�
 
 
 
-****Hash Function****
+# Hash Function
 
-***1.Hash Function是什麼？***
+## 1.Hash Function是什麼？
 
 它是一種從任何一種資料中建立小的數字「指紋」的方法。
 
 Hash Function把訊息或資料 (key) 壓縮成摘要，使得資料量變小，將資料的格式固定下來。該函式將資料打亂混合，重新建立一個叫做 雜湊值（hash values，hash codes，hash sums，或hashes） 的指紋。這個雜湊值就當作是陣列的索引，資料就儲存在這個索引的位置中。雜湊值通常用一個短的隨機字母和數字組成的字串來代表。
 
-***2.Hash Function的性質***
+## 2.Hash Function的性質
 
 
 a)運算速度快
@@ -59,7 +59,7 @@ d)如果兩個雜湊值是 相同 的（根據同一函式），那麼這兩個�
 e)衝突 (collision)：
 也就是 第 2 種情況 發生時就稱為「雜湊衝突」。好的雜湊函式在輸入域中很少出現雜湊衝突。在雜湊表和資料處理中，不抑制衝突來區別資料，會使得資料庫記錄更難找到。
 
-***3.hash function的應用***
+## 3.hash function的應用
 
 加密
 
@@ -67,7 +67,7 @@ e)衝突 (collision)：
 
 許多重要的應用，都使用了密碼雜湊函式來實作，例如數位簽章，訊息鑑別碼
 
-***流程圖：***
+## 流程圖：
 ![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/hashtable1.jpeg)
 
 ![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/hashtable4.png)
@@ -76,9 +76,9 @@ e)衝突 (collision)：
 
 ![-w80](https://github.com/Maddiezheng/MyLearningNote/blob/master/Data%20Structures%20and%20Algorithms/Picture/hashtable3.png)
 
-****方法解釋****
+## 方法解釋
 
-***add：***
+### add：
 
 用於存取新的資料。
 
@@ -90,7 +90,7 @@ e)衝突 (collision)：
 
 
 
-**contains：**
+## contains：
 
 用於檢查資料有沒有add進去。
 
@@ -98,7 +98,7 @@ e)衝突 (collision)：
 
 若遍歷完依舊沒有和key的值相等，則return false
 
-***remove：****
+## remove：
 
 用於刪除資料。
 

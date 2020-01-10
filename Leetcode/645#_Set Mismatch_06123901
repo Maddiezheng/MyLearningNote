@@ -1,9 +1,6 @@
 class Solution(object):
     def findErrorNums(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[int]
-        """
+      
         dict = {}
         for i in set(nums):
             dict[i] = nums.count(i)  #計算nums裡各元素的出現次數

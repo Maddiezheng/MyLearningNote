@@ -1,3 +1,17 @@
+About me
+=====
+:neckbeard:: Maddie Zheng
+
+:round_pushpin:: China
+
+:house:: Taipei,Taiwan
+
+:school:: Dept. of Big data management & Dept. of German Language and Literature,Soochow University
+
+
+
+
+
 About the course
 ====
 Course Information
